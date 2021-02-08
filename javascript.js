@@ -9,4 +9,11 @@ submitButton.addEventListener('submit', () => window.location.href = "https://go
 
 import * as data from './NIMH_data.json';
 // const {name} = data;
-console.log(data); // output 'testing'
+
+$.each(data, (i, value) => {
+    var link = (`<li class="item"><a href="${value.Link}">${value.Desription}</a></li>`);
+    $('#resources-list').append(link);
+});
+// console.log(data); // output 'testing'
+
+submitButton.addEventListener('submit', () => window.location.href = "https://google.com")
