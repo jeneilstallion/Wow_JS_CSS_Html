@@ -188,35 +188,7 @@ module.exports = [{
   "Link": "https://www.mentalhealth.va.gov/MENTALHEALTH/get-help/index.asp",
   "Desription": "U.S. Department of Veteran Affairs’ mental health page"
 }];
-},{}],"javascript.js":[function(require,module,exports) {
-"use strict";
-
-var data = _interopRequireWildcard(require("./NIMH_data.json"));
-
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-
-// Alert for question options
-// const radios = document.querySelectorAll('input[type=radio]');
-// for (let radio of radios) {
-//   radio.addEventListener('change', () => alert(radio.value));
-// }
-var submitButton = document.getElementById('submit-button');
-submitButton.addEventListener('submit', function () {
-  return window.location.href = "https://google.com";
-}); // submitButton.addEventListener('click', () => window.location.href = "./resources.html")
-
-// const {name} = data;
-$.each(data, function (i, value) {
-  var link = "<li class=\"item\"><a href=\"".concat(value.Link, "\">").concat(value.Desription, "</a></li>");
-  $('#resources-list').append(link);
-}); // console.log(data); // output 'testing'
-
-submitButton.addEventListener('submit', function () {
-  return window.location.href = "https://google.com";
-});
-},{"./NIMH_data.json":"NIMH_data.json"}],"../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{}],"../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -244,7 +216,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53188" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54134" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -420,5 +392,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","javascript.js"], null)
-//# sourceMappingURL=/javascript.fdd706da.js.map
+},{}]},{},["../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","NIMH_data.json"], null)
+//# sourceMappingURL=/NIMH_data.b0d3aa13.js.map
