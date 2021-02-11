@@ -191,7 +191,7 @@ module.exports = [{
 },{}],"javascript.js":[function(require,module,exports) {
 "use strict";
 
-var data = _interopRequireWildcard(require("./NIMH_data.json"));
+var data = _interopRequireWildcard(require("./NIMH_data"));
 
 function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
 
@@ -216,7 +216,7 @@ $.each(data, function (i, value) {
 submitButton.addEventListener('submit', function () {
   return window.location.href = "https://google.com";
 });
-},{"./NIMH_data.json":"NIMH_data.json"}],"../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./NIMH_data":"NIMH_data.json"}],"../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -244,7 +244,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53188" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64804" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -420,5 +420,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","javascript.js"], null)
+},{}]},{},["../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","javascript.js"], null)
 //# sourceMappingURL=/javascript.fdd706da.js.map
