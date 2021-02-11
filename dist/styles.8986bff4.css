@@ -1,14 +1,30 @@
 .main-form{ 
+background-image: url(https://www.nicepng.com/png/full/236-2362567_health-clipart-mental-illness-positive-attitude-icon-png.png);
+background-size: 500px;
+background-repeat: no-repeat;
+background-position: bottom;
+background-position: bottom 0px right 100px;
+font-family: 'Roboto', sans-serif;
 text-align: left;
 font-weight: bold;
   color: black;
   margin-bottom: 5px;
-  padding: 10px;
+  padding: 100px;
   background-color: #F4A460;
   display: inline-block;
-  width: 50%;
-  border-radius: 3px;
+  width: 80%;
+  border-radius: 100px;
   }
+
+h1{
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+    color: white;
+
+}
+
 
 
 /*# sourceMappingURL=/styles.8986bff4.css.map */

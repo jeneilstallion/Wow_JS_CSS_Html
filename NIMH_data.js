@@ -1,3 +1,4 @@
+export default {
 [
     {
         "Link": "http://suicidepreventionlifeline.org/",
@@ -92,3 +93,4 @@
         "Desription": "U.S. Department of Veteran Affairs’ mental health page"
     }
 ]
+}

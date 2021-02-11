@@ -7,7 +7,7 @@ let submitButton = document.getElementById('submit-button')
 submitButton.addEventListener('submit', () => window.location.href = "https://google.com")
 // submitButton.addEventListener('click', () => window.location.href = "./resources.html")
 
-import * as data from './NIMH_data.json';
+import * as data from './NIMH_data';
 // const {name} = data;
 
 $.each(data, (i, value) => {
