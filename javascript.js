@@ -4,16 +4,14 @@
 //   radio.addEventListener('change', () => alert(radio.value));
 // }
 let submitButton = document.getElementById('submit-button')
-submitButton.addEventListener('submit', () => window.location.href = "https://google.com")
-// submitButton.addEventListener('click', () => window.location.href = "./resources.html")
+submitButton.addEventListener('click', () => window.location.href = "./resources.html")
 
 import * as data from './NIMH_data';
 // const {name} = data;
-
+debugger
 $.each(data, (i, value) => {
     var link = (`<li class="item"><a href="${value.Link}">${value.Desription}</a></li>`);
     $('#resources-list').append(link);
 });
 // console.log(data); // output 'testing'
 
-submitButton.addEventListener('submit', () => window.location.href = "https://google.com")
